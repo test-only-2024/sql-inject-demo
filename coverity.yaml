@@ -3,7 +3,8 @@ analyze:
   checkers:
     all: true
     audit: true
-    trust: false
+    trust: 
+      all: false
     webapp-security:
       enabled: true
       aggressiveness-level: high
