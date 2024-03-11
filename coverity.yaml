@@ -1,13 +1,14 @@
 analyze:
   location: local
+  trust: 
+    all: false
   checkers:
     all: true
     audit: true
-    trust: 
-      all: false
     webapp-security:
       enabled: true
       aggressiveness-level: high
+
 commit:
   connect:
     stream: shichao-sqli
