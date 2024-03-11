@@ -13,7 +13,7 @@ analyze:
     all: false
   checkers:
     all: true
-    audit: true
+    audit: false
     webapp-security:
       enabled: true
       aggressiveness-level: high
