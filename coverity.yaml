@@ -2,7 +2,9 @@ capture:
   build:
     build-command: mvn compile  -T 4 -Dmaven.test.skip=true -DskipTests
     clean-command: mvn clean
-    
+  languages:
+    include: ["java"]
+
 analyze:
   location: local
   cov-analyze-args:
