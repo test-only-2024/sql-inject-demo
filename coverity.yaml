@@ -1,5 +1,7 @@
 analyze:
   location: local
+  cov-analyze-args:
+  - --disable-spotbugs
   trust: 
     all: false
   checkers:
