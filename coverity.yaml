@@ -1,0 +1,13 @@
+analyze:
+  location: local
+  checkers:
+    all: true
+    audit: true
+    trust: false
+    webapp-security:
+      enabled: true
+      aggressiveness-level: high
+commit:
+  connect:
+    stream: shichao-sqli
+    url: https://testing.coverity.synopsys.com
