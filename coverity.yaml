@@ -9,6 +9,7 @@ analyze:
   location: local
   cov-analyze-args:
   - --disable-spotbugs
+  - --all-security
   trust: 
     all: false
   checkers:
